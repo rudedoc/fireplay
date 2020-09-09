@@ -1,0 +1,31 @@
+{
+  "name": "fireplay",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "bootstrap": "^4.5.2",
+    "css-loader": "^4.2.2",
+    "fibers": "^5.0.0",
+    "firebase": "^7.19.1",
+    "firebaseui": "^4.6.1",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^10.0.1",
+    "turbolinks": "^5.2.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-router": "^3.4.3",
+    "vue-template-compiler": "^2.6.12",
+    "vuefire": "^2.2.4",
+    "vuetify": "^2.3.10",
+    "vuex": "^3.5.1"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
