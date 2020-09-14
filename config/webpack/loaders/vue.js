@@ -1,7 +1,12 @@
 module.exports = {
   test: /\.vue(\.erb)?$/,
   use: [{
-    loader: 'vue-loader'
+    loader: 'vue-loader',
+    options: {
+      loaders: {
+        pug: 'pug-plain-loader'
+      }
+    }
   }],
   rules: [
     {
